@@ -33,7 +33,7 @@
     "jshint-stylish": "^1.0.0"
   },
   "scripts": {
-    "test": "grunt"
+    "test": "mocha"
   },
   "bin": {
     "cloche": "cli.js"
