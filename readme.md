@@ -13,8 +13,8 @@ $ npm install --save cloche
 ## Usage
 
 ```sh
-$ cloche on
-$ cloche off
+$ cloche show
+$ cloche hide
 $ cloche --help
 ```
 
