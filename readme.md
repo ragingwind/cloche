@@ -6,7 +6,7 @@
 ## Install
 
 ```sh
-$ npm install --save cloche
+$ npm install -g cloche
 ```
 
 
