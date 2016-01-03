@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Show/Hide all files on desktop on MacOS",
   "homepage": "http://github.com/ragingwind/cloche",
+  "repository": "ragingwind/cloche",
+  "license": "MIT",
   "author": {
     "name": "ragingwind",
     "email": "ragingwind@gmail.com"
   },
-  "repository": "ragingwind/cloche",
-  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "files": [
     "index.js",
     "cli.js"
@@ -20,20 +23,7 @@
     "gadget"
   ],
   "dependencies": {
-    "meow": "^3.5.0"
-  },
-  "devDependencies": {
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.11.3",
-    "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^3.3.0",
-    "time-grunt": "^1.2.2",
-    "grunt-mocha-cli": "^2.0.0",
-    "jshint-stylish": "^2.0.1"
-  },
-  "scripts": {
-    "test": "mocha"
+    "meow": "^3.6.0"
   },
   "bin": {
     "cloche": "cli.js"

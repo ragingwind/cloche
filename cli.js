@@ -17,8 +17,7 @@ var cli = meow({
 });
 
 if (cli.input.length !== 1 || !/show|hide/.test(cli.input[0])) {
-	cli.showHelp();
-	exit(-1);
+	cli.showHelp(-1);
 }
 
 cloche(cli.input[0]);
