@@ -2,19 +2,18 @@
 
 'use strict';
 
-var meow = require('meow');
-var cloche = require('./');
+const meow = require('meow');
+const cloche = require('./');
 
-var cli = meow({
-  help: [
-    'Usage',
-    '  cloche <flag>',
-    '',
-    'Example',
-    '  cloche show',
-    '  cloche hide'
-  ].join('\n')
-});
+const cli = meow({
+  help: [`
+  Usage
+    cloche <flag>
+
+  Example
+    cloche show
+    cloche hide
+`]);
 
 if (cli.input.length !== 1 || !/show|hide/.test(cli.input[0])) {
 	cli.showHelp(-1);

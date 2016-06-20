@@ -1,6 +1,6 @@
-#  [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-url]][daviddm-image]
+# cloche
 
-> Show/Hide all files on desktop on MacOS
+> Toggle show or hide all of files on desktop on MacOS
 
 
 ## Install
@@ -21,10 +21,4 @@ $ cloche --help
 
 ## License
 
-MIT © [ragingwind](http://ragingwind.me)
-
-
-[npm-url]: https://npmjs.org/package/cloche
-[npm-image]: https://badge.fury.io/js/cloche.svg
-[daviddm-url]: https://david-dm.org/ragingwind/cloche.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/ragingwind/cloche
+MIT © [Jimmy Moon](http://ragingwind.me)
