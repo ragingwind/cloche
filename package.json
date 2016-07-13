@@ -1,6 +1,6 @@
 {
   "name": "cloche",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Show/Hide all files on desktop on MacOS",
   "homepage": "http://github.com/ragingwind/cloche",
   "repository": "ragingwind/cloche",
@@ -27,5 +27,11 @@
   },
   "bin": {
     "cloche": "cli.js"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "devDependencies": {
+    "xo": "^0.16.0"
   }
 }

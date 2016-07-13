@@ -6,14 +6,14 @@ const meow = require('meow');
 const cloche = require('./');
 
 const cli = meow({
-  help: [`
+	help: [`
   Usage
     cloche <flag>
 
   Example
     cloche show
-    cloche hide
-`]);
+    cloche hide`]
+});
 
 if (cli.input.length !== 1 || !/show|hide/.test(cli.input[0])) {
 	cli.showHelp(-1);
